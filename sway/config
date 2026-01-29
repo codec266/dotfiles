@@ -236,8 +236,11 @@ include /etc/sway/config.d/*
 default_border pixel 1
 default_floating_border pixel 1
 
+# borders
+client.focused #ffffff #000000 #000000 #ffffff #ffffff
 gaps inner 5
 gaps outer 5
 
-# colors
-#client.focused #ffffff #ffffff #ffffff #ffffff #ffffff
+# exec
+exec_always swaybg -c "#404040"
+exec mako
