@@ -242,5 +242,7 @@ gaps inner 5
 gaps outer 5
 
 # exec
-exec_always swaybg -c "#404040"
+# exec_always swaybg -c "#404040"
+exec_always swaybg -i ~/.config/wallpapers/the-parc-monceau.jpg -m fill
+exec_always swaybg -o HDMI-A-2 -i ~/.config/wallpapers/the-parc-monceau.jpg -m fill
 exec mako
