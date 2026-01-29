@@ -1,0 +1,13 @@
+layer=top
+anchor=top-right
+font=mononoki Nerd Font 10
+background-color=#262624
+text-color=#ffffff
+width=350
+outer-margin=3
+padding=15
+border-size=1
+border-color=#ffffff
+progress-color=over #262626ff
+default-timeout=10000
+group-by=summary
